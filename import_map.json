@@ -1,5 +1,7 @@
 {
   "imports": {
+    "deco-sites/qsstore/": "./",
+
     "$store/": "./",
     "apps/": "https://denopkg.com/deco-cx/apps@0.10.3/",
     "deco/": "https://denopkg.com/deco-cx/deco@1.38.1/",
