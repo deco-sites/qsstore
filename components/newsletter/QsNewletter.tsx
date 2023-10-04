@@ -1,4 +1,3 @@
-
 export interface Props{
     title: string;
     description: string;
@@ -27,12 +26,12 @@ export function QsNewsletter({title = defaultTitle, description = defaulDescript
             class="flex flex-col items-center justify-evenly gap-4 pt-10 md:flex-row">
                
             <input type="text"
-            placeholder="Digite seu e-mail"
-            class="min-h-[45px] border border-solid border-white 
-                  bg-[#ffffff99] px-[10px] py-0 text-black placeholder:text-gray-600" />
+                  placeholder="Digite seu e-mail"
+                  class="min-h-[45px] border border-solid border-white 
+                        bg-[#ffffff99] px-[10px] py-0 text-black placeholder:text-gray-600" />
 
             <button 
-            class="min-h-[40px] border border-solid border-white 
+                class="min-h-[40px] border border-solid border-white 
                   px-10 hover:bg-white hover:text-black">Cadastre-se</button>
           </div>
         </div>

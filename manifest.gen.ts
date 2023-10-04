@@ -6,7 +6,7 @@ import * as $$$0 from "./loaders/Layouts/ProductCard.tsx";
 import * as $$$$$$0 from "./sections/Header/Header.tsx";
 import * as $$$$$$1 from "./sections/Theme/Theme.tsx";
 import * as $$$$$$2 from "./sections/Newsletter/Newsletter.tsx";
-import * as $$$$$$3 from "./sections/Newsletter/QsNewletter.tsx";
+import * as $$$$$$3 from "./components/newsletter/QsNewletter.tsx";
 import * as $$$$$$4 from "./sections/Newsletter/NewNewsletter.tsx";
 import * as $$$$$$5 from "./sections/Category/CategoryBanner.tsx";
 import * as $$$$$$6 from "./sections/Category/CategoryList.tsx";
