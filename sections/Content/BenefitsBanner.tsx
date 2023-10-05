@@ -11,7 +11,7 @@ export function BenefitsBanner(){
                         <p>A aventura começa aqui!</p>
                         <p>Cadastre-se no clube e receba nossas promoções.</p>
                     </div>
-                    <button class="flex mr-10 w-full max-w-[350px] justify-center bg-[#181818] py-2 text-center text-sm font-medium text-white">Cadastre-se Agora!</button>
+                    <button class="flex mr-10 w-full max-w-[350px] justify-center bg-[#181818] hover:bg-[#333] py-2 text-center text-sm font-medium text-white">Cadastre-se Agora!</button>
                 </div>
 
                 <div class="grid h-[60%] w-full grid-cols-2 grid-rows-2 gap-2 p-3 md:h-full md:w-[50%] md:gap-20">
@@ -35,7 +35,7 @@ export function BenefitsBanner(){
                         </div>
                     </div>
 
-                    <div class="flex flex-col justify-center">
+                    <div class="flex flex-col justify-center md:mt-8 lg:mt-0">
                         <div class="flex h-[40%] md:h-full">
                             <img src="https://www.quiksilver.com.br/custom/content/themes/Quiksilver/Images/Reward_icon_updated.svg" alt="" class="flex fill-current object-contain" />
                         </div>
