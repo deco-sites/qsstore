@@ -1,5 +1,5 @@
 
-export function QsFooter() {
+export function QsFooterAbout() {
     return (
       <>
         <div class="h-1000 md:h-500 flex w-full flex-col gap-10 bg-[#181818] px-[100px] py-[50px] text-white md:flex-row">
@@ -23,5 +23,5 @@ export function QsFooter() {
     );
   }
   
-export default QsFooter;
+  export default QsFooterAbout;
   

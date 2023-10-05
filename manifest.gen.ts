@@ -30,6 +30,9 @@ import * as $$$$$$23 from "./sections/Product/Wishlist.tsx";
 import * as $$$$$$24 from "./sections/Product/SearchResult.tsx";
 import * as $$$$$$25 from "./sections/Product/ProductShelf.tsx";
 import * as $$$$$$26 from "./sections/Footer/Footer.tsx";
+import * as $$$$$$27 from "./sections/Footer/QsFooterValues.tsx";
+import * as $$$$$$28 from "./sections/Footer/QsFooterAbout.tsx";
+import * as $$$$$$29 from "./sections/Footer/QsFooter.tsx";
 import * as $$$$$$$$$$$0 from "./apps/site.ts";
 import * as $$$$$$$$$$$1 from "./apps/decohub.ts";
 
@@ -46,6 +49,9 @@ const manifest = {
     "deco-sites/qsstore/sections/Content/Logos.tsx": $$$$$$20,
     "deco-sites/qsstore/sections/Content/Testimonials.tsx": $$$$$$18,
     "deco-sites/qsstore/sections/Footer/Footer.tsx": $$$$$$26,
+    "deco-sites/qsstore/sections/Footer/QsFooter.tsx": $$$$$$29,
+    "deco-sites/qsstore/sections/Footer/QsFooterAbout.tsx": $$$$$$28,
+    "deco-sites/qsstore/sections/Footer/QsFooterValues.tsx": $$$$$$27,
     "deco-sites/qsstore/sections/Header/Header.tsx": $$$$$$0,
     "deco-sites/qsstore/sections/Images/BannerGrid.tsx": $$$$$$9,
     "deco-sites/qsstore/sections/Images/Carousel.tsx": $$$$$$10,
