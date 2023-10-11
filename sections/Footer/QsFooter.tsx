@@ -34,7 +34,7 @@ export function QsFooter() {
           </div>
         </div>
 
-        <div class="flex w-[100%] items-center justify-center border-b-[1px] border-gray-600 md:h-[400px] md:items-start md:justify-between">
+        <div class="flex w-[100%] items-center justify-center border-b-[1px] border-gray-600 md:h-[400px] md:items-start md:justify-between md:px-[50px]">
           <div class="md:flex md:flex-col md:items-start md:justify-start md:gap-4">
             <h3 class="hidden text-sm font-medium uppercase tracking-widest md:flex">Encontre a Loja mais próxima</h3>
             <div class="hidden h-[45px] w-[240px] items-center border border-gray-500 md:flex">
