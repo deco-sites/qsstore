@@ -1,19 +1,22 @@
-import { useState } from "https://esm.sh/preact@10.15.1/compat";
+import Preact, { useState } from "https://esm.sh/preact@10.15.1/compat";
 
 
-export function QsFooterAbout() {
+export function QsFooterAbout(this: any) {
   const [active, setActive] = useState(false);
+  // deno-lint-ignore no-var
+  var test = 'text'
 
   const toggleClass = () => {
-    setActive(!active);
+    test = 'lul'
+    setActive({active: !active});
   };
 
   return (
     <>   
-      <div class="h-[170px] bg-[#0102020] flex flex-col items-center justify-center py-[30px] px-[30px]">
+      <div class="h-[190px] bg-[#0102020] flex flex-col items-center justify-center py-[40px] px-[30px]">
         <div class="relative h-[100px] overflow-hidden">
           <p class = 'leading-loose text-[11px] text-[#505050] my-[12px] font-normal'>
-            Como a marca de surf mais icônica que foi pioneira em gerações de progresso e inovação, a Quiksilver vem oferecendo o melhor dos melhores para surfistas em todo o mundo desde 1969. O que começou como uma empresa simplesmente enraizada no estilo de vida do surf, evoluiu para uma marca influente que oferece alta moda de qualidade para quem procura desempenho e conforto no mundo dos esportes de aventura. A extensão da Quiksilver nas categorias de esqui e snowboard foi uma parte natural do crescimento da marca e continuamos a ser uma das principais marcas de snowboard representadas nas montanhas, ano após ano. Na Quiksilver, inovamos para inspirar e, se nossos produtos puderem facilitar seu estilo de vida em busca de aventura, faremos nosso trabalho corretamente.
+            {test} Como a marca de surf mais icônica que foi pioneira em gerações de progresso e inovação, a Quiksilver vem oferecendo o melhor dos melhores para surfistas em todo o mundo desde 1969. O que começou como uma empresa simplesmente enraizada no estilo de vida do surf, evoluiu para uma marca influente que oferece alta moda de qualidade para quem procura desempenho e conforto no mundo dos esportes de aventura. A extensão da Quiksilver nas categorias de esqui e snowboard foi uma parte natural do crescimento da marca e continuamos a ser uma das principais marcas de snowboard representadas nas montanhas, ano após ano. Na Quiksilver, inovamos para inspirar e, se nossos produtos puderem facilitar seu estilo de vida em busca de aventura, faremos nosso trabalho corretamente.
           </p>
           <strong class = 'text-xs text-[#505050] font-semibold py-[20px]'>SEU ESTILO DE VIDA SURF COMEÇA AQUI</strong>
           <p class = 'leading-loose text-[11px] text-[#505050] my-[12px] font-normal'>
@@ -33,8 +36,8 @@ export function QsFooterAbout() {
         </div>
 
     
-        <button class="w-[30px] h-[30px]" onClick={toggleClass}> 
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="h-[30px] w-[30px]">
+        <button class="w-[60px] h-[50px] flex items-center justify-center z-50" onClick={this.toggleClass}> 
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="h-[20px] w-[20px]">
             <g>
               <g>
                 <g>
