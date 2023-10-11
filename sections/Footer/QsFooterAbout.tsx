@@ -1,22 +1,15 @@
-import Preact, { useState } from "https://esm.sh/preact@10.15.1/compat";
+import Preact, { useState } from "preact/hooks";
 
 
-export function QsFooterAbout(this: any) {
-  const [active, setActive] = useState(false);
-  // deno-lint-ignore no-var
-  var test = 'text'
-
-  const toggleClass = () => {
-    test = 'lul'
-    setActive({active: !active});
-  };
+export function QsFooterAbout() {
+  const [isActive, setActive] = useState(false);
 
   return (
     <>   
       <div class="h-[190px] bg-[#0102020] flex flex-col items-center justify-center py-[40px] px-[30px]">
         <div class="relative h-[100px] overflow-hidden">
           <p class = 'leading-loose text-[11px] text-[#505050] my-[12px] font-normal'>
-            {test} Como a marca de surf mais icônica que foi pioneira em gerações de progresso e inovação, a Quiksilver vem oferecendo o melhor dos melhores para surfistas em todo o mundo desde 1969. O que começou como uma empresa simplesmente enraizada no estilo de vida do surf, evoluiu para uma marca influente que oferece alta moda de qualidade para quem procura desempenho e conforto no mundo dos esportes de aventura. A extensão da Quiksilver nas categorias de esqui e snowboard foi uma parte natural do crescimento da marca e continuamos a ser uma das principais marcas de snowboard representadas nas montanhas, ano após ano. Na Quiksilver, inovamos para inspirar e, se nossos produtos puderem facilitar seu estilo de vida em busca de aventura, faremos nosso trabalho corretamente.
+            Como a marca de surf mais icônica que foi pioneira em gerações de progresso e inovação, a Quiksilver vem oferecendo o melhor dos melhores para surfistas em todo o mundo desde 1969. O que começou como uma empresa simplesmente enraizada no estilo de vida do surf, evoluiu para uma marca influente que oferece alta moda de qualidade para quem procura desempenho e conforto no mundo dos esportes de aventura. A extensão da Quiksilver nas categorias de esqui e snowboard foi uma parte natural do crescimento da marca e continuamos a ser uma das principais marcas de snowboard representadas nas montanhas, ano após ano. Na Quiksilver, inovamos para inspirar e, se nossos produtos puderem facilitar seu estilo de vida em busca de aventura, faremos nosso trabalho corretamente.
           </p>
           <strong class = 'text-xs text-[#505050] font-semibold py-[20px]'>SEU ESTILO DE VIDA SURF COMEÇA AQUI</strong>
           <p class = 'leading-loose text-[11px] text-[#505050] my-[12px] font-normal'>
@@ -35,24 +28,26 @@ export function QsFooterAbout(this: any) {
           <div class="absolute bottom-0 left-0 right-0 h-[30%] w-full overflow-hidden bg-gradient-to-t from-white opacity-100"></div>
         </div>
 
-    
-        <button class="w-[60px] h-[50px] flex items-center justify-center z-50" onClick={this.toggleClass}> 
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="h-[20px] w-[20px]">
-            <g>
+        <div onClick={() => setActive((prevState) => !prevState)}>  
+          <button class="w-[60px] h-[50px] flex items-center justify-center z-50"> 
+            {isActive ? 'certo' : 'errado'} 
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="h-[20px] w-[20px]">
               <g>
                 <g>
-                  <path fill="#010202" d="M15,0C6.7,0,0,6.7,0,15s6.7,15,15,15s15-6.7,15-15S23.3,0,15,0z M15,28.6C7.5,28.6,1.4,22.5,1.4,15     S7.5,1.4,15,1.4S28.6,7.5,28.6,15S22.5,28.6,15,28.6z"/>
+                  <g>
+                    <path fill="#010202" d="M15,0C6.7,0,0,6.7,0,15s6.7,15,15,15s15-6.7,15-15S23.3,0,15,0z M15,28.6C7.5,28.6,1.4,22.5,1.4,15     S7.5,1.4,15,1.4S28.6,7.5,28.6,15S22.5,28.6,15,28.6z"/>
+                  </g>
                 </g>
               </g>
-            </g>
-            <g>
               <g>
-                <rect x="14.3" y="9" fill="#010202" class={`${active ? 'hidden fill-red-600' : 'fill-blue-600'}`} width="1.4" height="12"/>
-                <rect x="9" y="14.3" fill="#010202" width="12" height="1.4"/>
+                <g>
+                  <rect x="14.3" y="9" fill="#010202" class={`${isActive ? 'hidden fill-red-600' : 'fill-blue-600'}`} width="1.4" height="12"/>
+                  <rect x="9" y="14.3" fill="#010202" width="12" height="1.4"/>
+                </g>
               </g>
-            </g>
-          </svg>
-        </button>
+            </svg>
+          </button>
+        </div>
       </div>
     </>
   );
