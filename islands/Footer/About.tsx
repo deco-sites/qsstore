@@ -1,1 +1,0 @@
-import { QsFooterAbout } from "$store/sections/Footer/QsFooterAbout.tsx";

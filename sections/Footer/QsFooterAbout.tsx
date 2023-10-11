@@ -1,7 +1,7 @@
-import Preact, { useState } from "preact/hooks";
+import { useState } from "preact/hooks";
 
 
-export function QsFooterAbout() {
+const QsFooterAbout = () => {
   const [isActive, setActive] = useState(false);
 
   return (
@@ -53,5 +53,5 @@ export function QsFooterAbout() {
   );
 }
   
-  export default QsFooterAbout;
+export default QsFooterAbout;
   
