@@ -1,0 +1,1 @@
+export { default } from "$store/sections/Footer/QsFooterAbout.tsx";

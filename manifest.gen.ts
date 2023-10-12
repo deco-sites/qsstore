@@ -16,23 +16,24 @@ import * as $$$$$$9 from "./sections/Images/BannerGrid.tsx";
 import * as $$$$$$10 from "./sections/Images/Carousel.tsx";
 import * as $$$$$$11 from "./sections/Images/ImageGallery.tsx";
 import * as $$$$$$12 from "./sections/Images/ShoppableBanner.tsx";
-import * as $$$$$$13 from "./sections/Miscellaneous/CampaignTimer.tsx";
-import * as $$$$$$14 from "./sections/Miscellaneous/CookieConsent.tsx";
-import * as $$$$$$15 from "./sections/Links/Shortcuts.tsx";
-import * as $$$$$$16 from "./sections/Links/LinkTree.tsx";
-import * as $$$$$$17 from "./sections/Content/BenefitsBanner.tsx";
-import * as $$$$$$18 from "./sections/Content/Testimonials.tsx";
-import * as $$$$$$19 from "./sections/Content/Benefits.tsx";
-import * as $$$$$$20 from "./sections/Content/Logos.tsx";
-import * as $$$$$$21 from "./sections/Content/Faq.tsx";
-import * as $$$$$$22 from "./sections/Product/ProductDetails.tsx";
-import * as $$$$$$23 from "./sections/Product/Wishlist.tsx";
-import * as $$$$$$24 from "./sections/Product/SearchResult.tsx";
-import * as $$$$$$25 from "./sections/Product/ProductShelf.tsx";
-import * as $$$$$$26 from "./sections/Footer/Footer.tsx";
-import * as $$$$$$27 from "./sections/Footer/QsFooterValues.tsx";
-import * as $$$$$$28 from "./sections/Footer/QsFooterAbout.tsx";
-import * as $$$$$$29 from "./sections/Footer/QsFooter.tsx";
+import * as $$$$$$13 from "./sections/Development/SimpleBanner.tsx";
+import * as $$$$$$14 from "./sections/Miscellaneous/CampaignTimer.tsx";
+import * as $$$$$$15 from "./sections/Miscellaneous/CookieConsent.tsx";
+import * as $$$$$$16 from "./sections/Links/Shortcuts.tsx";
+import * as $$$$$$17 from "./sections/Links/LinkTree.tsx";
+import * as $$$$$$18 from "./sections/Content/BenefitsBanner.tsx";
+import * as $$$$$$19 from "./sections/Content/Testimonials.tsx";
+import * as $$$$$$20 from "./sections/Content/Benefits.tsx";
+import * as $$$$$$21 from "./sections/Content/Logos.tsx";
+import * as $$$$$$22 from "./sections/Content/Faq.tsx";
+import * as $$$$$$23 from "./sections/Product/ProductDetails.tsx";
+import * as $$$$$$24 from "./sections/Product/Wishlist.tsx";
+import * as $$$$$$25 from "./sections/Product/SearchResult.tsx";
+import * as $$$$$$26 from "./sections/Product/ProductShelf.tsx";
+import * as $$$$$$27 from "./sections/Footer/Footer.tsx";
+import * as $$$$$$28 from "./sections/Footer/QsFooterValues.tsx";
+import * as $$$$$$29 from "./sections/Footer/QsFooterAbout.tsx";
+import * as $$$$$$30 from "./sections/Footer/QsFooter.tsx";
 import * as $$$$$$$$$$$0 from "./apps/site.ts";
 import * as $$$$$$$$$$$1 from "./apps/decohub.ts";
 
@@ -43,31 +44,32 @@ const manifest = {
   "sections": {
     "deco-sites/qsstore/sections/Category/CategoryBanner.tsx": $$$$$$5,
     "deco-sites/qsstore/sections/Category/CategoryList.tsx": $$$$$$6,
-    "deco-sites/qsstore/sections/Content/Benefits.tsx": $$$$$$19,
-    "deco-sites/qsstore/sections/Content/BenefitsBanner.tsx": $$$$$$17,
-    "deco-sites/qsstore/sections/Content/Faq.tsx": $$$$$$21,
-    "deco-sites/qsstore/sections/Content/Logos.tsx": $$$$$$20,
-    "deco-sites/qsstore/sections/Content/Testimonials.tsx": $$$$$$18,
-    "deco-sites/qsstore/sections/Footer/Footer.tsx": $$$$$$26,
-    "deco-sites/qsstore/sections/Footer/QsFooter.tsx": $$$$$$29,
-    "deco-sites/qsstore/sections/Footer/QsFooterAbout.tsx": $$$$$$28,
-    "deco-sites/qsstore/sections/Footer/QsFooterValues.tsx": $$$$$$27,
+    "deco-sites/qsstore/sections/Content/Benefits.tsx": $$$$$$20,
+    "deco-sites/qsstore/sections/Content/BenefitsBanner.tsx": $$$$$$18,
+    "deco-sites/qsstore/sections/Content/Faq.tsx": $$$$$$22,
+    "deco-sites/qsstore/sections/Content/Logos.tsx": $$$$$$21,
+    "deco-sites/qsstore/sections/Content/Testimonials.tsx": $$$$$$19,
+    "deco-sites/qsstore/sections/Development/SimpleBanner.tsx": $$$$$$13,
+    "deco-sites/qsstore/sections/Footer/Footer.tsx": $$$$$$27,
+    "deco-sites/qsstore/sections/Footer/QsFooter.tsx": $$$$$$30,
+    "deco-sites/qsstore/sections/Footer/QsFooterAbout.tsx": $$$$$$29,
+    "deco-sites/qsstore/sections/Footer/QsFooterValues.tsx": $$$$$$28,
     "deco-sites/qsstore/sections/Header/Header.tsx": $$$$$$0,
     "deco-sites/qsstore/sections/Images/BannerGrid.tsx": $$$$$$9,
     "deco-sites/qsstore/sections/Images/Carousel.tsx": $$$$$$10,
     "deco-sites/qsstore/sections/Images/ImageGallery.tsx": $$$$$$11,
     "deco-sites/qsstore/sections/Images/ShoppableBanner.tsx": $$$$$$12,
-    "deco-sites/qsstore/sections/Links/LinkTree.tsx": $$$$$$16,
-    "deco-sites/qsstore/sections/Links/Shortcuts.tsx": $$$$$$15,
-    "deco-sites/qsstore/sections/Miscellaneous/CampaignTimer.tsx": $$$$$$13,
-    "deco-sites/qsstore/sections/Miscellaneous/CookieConsent.tsx": $$$$$$14,
+    "deco-sites/qsstore/sections/Links/LinkTree.tsx": $$$$$$17,
+    "deco-sites/qsstore/sections/Links/Shortcuts.tsx": $$$$$$16,
+    "deco-sites/qsstore/sections/Miscellaneous/CampaignTimer.tsx": $$$$$$14,
+    "deco-sites/qsstore/sections/Miscellaneous/CookieConsent.tsx": $$$$$$15,
     "deco-sites/qsstore/sections/Newsletter/NewNewsletter.tsx": $$$$$$4,
     "deco-sites/qsstore/sections/Newsletter/Newsletter.tsx": $$$$$$3,
     "deco-sites/qsstore/sections/Newsletter/QsNewsletter.tsx": $$$$$$2,
-    "deco-sites/qsstore/sections/Product/ProductDetails.tsx": $$$$$$22,
-    "deco-sites/qsstore/sections/Product/ProductShelf.tsx": $$$$$$25,
-    "deco-sites/qsstore/sections/Product/SearchResult.tsx": $$$$$$24,
-    "deco-sites/qsstore/sections/Product/Wishlist.tsx": $$$$$$23,
+    "deco-sites/qsstore/sections/Product/ProductDetails.tsx": $$$$$$23,
+    "deco-sites/qsstore/sections/Product/ProductShelf.tsx": $$$$$$26,
+    "deco-sites/qsstore/sections/Product/SearchResult.tsx": $$$$$$25,
+    "deco-sites/qsstore/sections/Product/Wishlist.tsx": $$$$$$24,
     "deco-sites/qsstore/sections/Social/InstagramPosts.tsx": $$$$$$7,
     "deco-sites/qsstore/sections/Social/WhatsApp.tsx": $$$$$$8,
     "deco-sites/qsstore/sections/Theme/Theme.tsx": $$$$$$1,
