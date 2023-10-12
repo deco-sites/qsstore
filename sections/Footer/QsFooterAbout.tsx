@@ -6,8 +6,8 @@ const QsFooterAbout = () => {
 
   return (
     <>   
-      <div class="h-[190px] bg-[#0102020] flex flex-col items-center justify-center py-[40px] px-[30px]">
-        <div class="relative h-[100px] overflow-hidden">
+      <div class={isActive?'bg-[#0102020] flex flex-col items-center justify-center  py-[40px] px-[30px] m-0':'h-[240px] bg-[#0102020] flex flex-col items-center justify-center py-[40px] px-[30px]'}>
+        <div class={isActive?'p-0 flex flex-col justify-start':' overflow-hidden relative h-[60%] justify-start'}>
           <p class = 'leading-loose text-[11px] text-[#505050] my-[12px] font-normal'>
             Como a marca de surf mais icônica que foi pioneira em gerações de progresso e inovação, a Quiksilver vem oferecendo o melhor dos melhores para surfistas em todo o mundo desde 1969. O que começou como uma empresa simplesmente enraizada no estilo de vida do surf, evoluiu para uma marca influente que oferece alta moda de qualidade para quem procura desempenho e conforto no mundo dos esportes de aventura. A extensão da Quiksilver nas categorias de esqui e snowboard foi uma parte natural do crescimento da marca e continuamos a ser uma das principais marcas de snowboard representadas nas montanhas, ano após ano. Na Quiksilver, inovamos para inspirar e, se nossos produtos puderem facilitar seu estilo de vida em busca de aventura, faremos nosso trabalho corretamente.
           </p>
@@ -25,12 +25,11 @@ const QsFooterAbout = () => {
           <p class = 'leading-loose text-[11px] text-[#505050] my-[12px] font-normal'>
             Você quer saber como é se comportar da melhor maneira possível na água? Pegue sua prancha de surf ou longboard e vá em frente. A equipe de surf da Quiksilver possui alguns dos melhores surfistas - e eles chegaram onde estão hoje, com muito trabalho e comprometimento. Assim como estamos comprometidos em fornecer a eles equipamentos e roupas de surf de melhor qualidade, nossa equipe de surfistas está empenhada em ampliar os limites do que é possível a cada vez que eles chegam em suas pranchas de surf. Na Quiksilver, adoramos ver a comunidade global do surf se unir para continuar progredindo no esporte e nos sentimos honrados todos os anos por patrocinar algumas das maiores competições de surf do mundo. Para nós, surfar não é apenas produto, mas sim criar peças de desempenho que ajudam a destacar as incríveis habilidades que nossos atletas têm a oferecer. O surf está no centro do nosso DNA e continuamos a buscar os melhores talentos a cada ano.
           </p>
-          <div class="absolute bottom-0 left-0 right-0 h-[30%] w-full overflow-hidden bg-gradient-to-t from-white opacity-100"></div>
+          {isActive ? '':<div class="absolute bottom-0 left-0 right-0 h-[30%] w-full overflow-hidden bg-gradient-to-t from-white opacity-100"></div>}
         </div>
 
         <div onClick={() => setActive((prevState) => !prevState)}>  
-          <button class="w-[60px] h-[50px] flex items-center justify-center z-50"> 
-            {isActive ? 'certo' : 'errado'} 
+          <button class="w-[60px] h-[50px] flex items-center justify-center z-50 outline-none"> 
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="h-[20px] w-[20px]">
               <g>
                 <g>
@@ -41,7 +40,7 @@ const QsFooterAbout = () => {
               </g>
               <g>
                 <g>
-                  <rect x="14.3" y="9" fill="#010202" class={`${isActive ? 'hidden fill-red-600' : 'fill-blue-600'}`} width="1.4" height="12"/>
+                  <rect x="14.3" y="9" fill="#010202" class={`${isActive ? 'hidden' : ''}`} width="1.4" height="12"/>
                   <rect x="9" y="14.3" fill="#010202" width="12" height="1.4"/>
                 </g>
               </g>
