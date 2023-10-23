@@ -56,7 +56,7 @@ const manifest = {
     "deco-sites/qsstore/sections/Footer/QsFooterAbout.tsx": $$$$$$10,
     "deco-sites/qsstore/sections/Footer/QsFooterValues.tsx": $$$$$$11,
     "deco-sites/qsstore/sections/Header/Header.tsx": $$$$$$12,
-    "deco-sites/qsstore/sections/Header/QsHeader.tsx": $$$$$$13,
+    "deco-sites/qsstore/sections/Header/Headerqs.tsx": $$$$$$13,
     "deco-sites/qsstore/sections/Images/BannerGrid.tsx": $$$$$$14,
     "deco-sites/qsstore/sections/Images/Carousel.tsx": $$$$$$15,
     "deco-sites/qsstore/sections/Images/ImageGallery.tsx": $$$$$$16,

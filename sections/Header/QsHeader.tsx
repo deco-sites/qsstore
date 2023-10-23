@@ -1,9 +1,9 @@
 export function QsHeader () {
     return (
         <>
-        <div class="flex h-16 w-full border border-black">
-        <div class="mr-auto flex w-52 border border-black">
-          <div class="mr-auto flex cursor-pointer border border-black pl-5">
+       <div class="flex h-16 w-full ">
+          <div class=" flex w-48 ">
+          <div class=" flex cursor-pointer pl-5">
             <svg class="h-16 w-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 35" fill="#11100e">
               <g id="Camada_2" data-name="Camada 2">
                 <g id="Camada_1-2" data-name="Camada 1">
@@ -21,27 +21,32 @@ export function QsHeader () {
           </div>
         </div>
       
-        <div class="border border-red-500">
-          <ul class="flex justify-center p-0">
+        <div class="">
+          <ul class="flex p-0">
             <li class="px-3.5">
-              <div class="text-xs[1.4rem] h-16 cursor-pointer border border-green-500 px-3.5 py-3.5 font-semibold text-blue-600 md:text-red-600">Novidades</div>
+              <div class="h-16 cursor-pointer px-3.5 py-3.5 font-semibold text-blue-600 md:text-red-600">Novidades</div>
             </li>
             <li class="px-3.5">
-              <div class="text-xs[1.4rem] h-16 cursor-pointer border border-green-500 px-3.5 py-3.5 text-center font-semibold text-blue-600 md:text-red-600">Masculino</div>
+              <div class="h-16 cursor-pointer px-3.5 py-3.5 text-center font-semibold text-blue-600 md:text-red-600">Masculino</div>
             </li>
             <li class="px-3.5">
-              <div class="text-xs[1.4rem] h-16 cursor-pointer border border-green-500 px-3.5 py-3.5 font-semibold text-blue-600 md:text-red-600">Surf</div>
+              <div class="h-16 cursor-pointer px-3.5 py-3.5 font-semibold text-blue-600 md:text-red-600">Surf</div>
             </li>
             <li class="px-3.5">
-              <div class="text-x h-16 cursor-pointer border border-green-500 px-3.5 py-3.5 font-semibold text-blue-600 md:text-red-600">Infantil e Juvenil</div>
+              <div class="whitespace-nowrap h-16 cursor-pointer px-3.5 py-3.5 font-semibold text-blue-600 md:text-red-600">Infantil e Juvenil</div>
             </li>
             <li class="px-3.5">
-              <div class="text-xs[1.4rem] h-16 cursor-pointer border border-green-500 px-3.5 py-3.5 font-semibold text-blue-600 md:text-red-600">Outlet</div>
+              <div class="h-16 cursor-pointer px-3.5 py-3.5 font-semibold text-blue-600 md:text-red-600">Outlet</div>
             </li>
           </ul>
         </div>
-        <input type="text" autocomplete="off" placeholder="Procurar" class="relative cursor-pointer " />
-        <div class="w-[102.75px] border border-green-600"></div>
+        <div class="flex items-center w-2 ">
+          <input class="w-[120px] h-[32px]  p-2 cursor-pointer border border-black placeholder:" />
+        </div>
+        
+        <div class="w-24 justify-center flex ">
+          <svg class="h-16 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 306.1 388.4"><path d="M281.4 73.4h-51.9C227.7 32.8 193.9-.2 153-.2S78.3 32.7 76.5 73.3H23.7L-.1 388.2H306v-1L281.4 73.4zM153 16.4c31.8 0 58.3 25.5 60 57H93c1.7-31.5 28.2-57 60-57zM17.9 371.6L39.4 89.9h37v54.5h16.5V89.9h120.2v54.5h16.5V89.9h37.9l21.4 281.7h-271z"/></svg>
+        </div>
       </div>
      </>
     );
